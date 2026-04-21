@@ -15,8 +15,9 @@ $samples = [
 
 $associator->train($samples, []);
 
-$data = ['perfume'];
+$data = [['pulseira', 'colar'], ['desodorante', 'creme']];
 
 $result = $associator->predict($data);
-echo $result[0][0] . " e " . $result[1][0] . " estão associados(as) à " . implode(', ', $data) . PHP_EOL;
+echo $result[0][0][0] . " está associado(a) à pulseira e colar." . PHP_EOL;
+echo $result[1][0][0] . " está associado(a) à desodorante e creme." . PHP_EOL;
 // var_dump($result);
