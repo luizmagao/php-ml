@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "luizlins/analise-associativa",
+  "description": "Projeto com PHP-ML",
+  "autoload": {
+    "psr-4": {
+      "Luizlins\\AnaliseAssociativa\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "LuizLins",
+      "email": "luizmagao@gmail.com"
+    }
+  ],
+  "require": {
+    "php-ai/php-ml": "^0.10.0"
+  }
+}
