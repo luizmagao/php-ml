@@ -1,29 +1,29 @@
-# Análise de Classificação com K-Nearest Neighbors (KNN) usando PHP-ML
+# Análise de Classificação com Naive Bayes usando PHP-ML
 
 ## Descrição do Projeto
 
-Este projeto é um estudo prático sobre **Classificação usando K-Nearest Neighbors (KNN)** utilizando a biblioteca **PHP-ML** em PHP. O KNN é um algoritmo de aprendizado de máquina supervisionado baseado em instância, que classifica novos dados com base na maioria dos k vizinhos mais próximos no espaço de features.
+Este projeto é um estudo prático sobre **Classificação usando Naive Bayes** utilizando a biblioteca **PHP-ML** em PHP. O Naive Bayes é um algoritmo de aprendizado de máquina supervisionado baseado em probabilidade, que aplica o teorema de Bayes com a suposição de independência entre as features.
 
-O foco principal é o algoritmo **K-Nearest Neighbors**, implementado pela classe `KNearestNeighbors` da biblioteca PHP-ML, que calcula distâncias (geralmente Euclidiana) para determinar a classe mais provável.
+O foco principal é o algoritmo **Naive Bayes**, implementado pela classe `NaiveBayes` da biblioteca PHP-ML, que calcula probabilidades para classificar novos dados.
 
 ## Por Que Este Projeto?
 
-- **Aprendizado**: Serve como material de estudo para entender o KNN em PHP.
-- **Demonstração**: Mostra como usar KNN para problemas de classificação simples.
-- **Aplicação Prática**: Exemplifica o uso de KNN em cenários como classificação de tamanhos ou outras categorias baseadas em proximidade.
+- **Aprendizado**: Serve como material de estudo para entender o Naive Bayes em PHP.
+- **Demonstração**: Mostra como usar Naive Bayes para problemas de classificação probabilística.
+- **Aplicação Prática**: Exemplifica o uso de Naive Bayes em cenários como classificação de texto ou categorias simples.
 
 ## Pra Que Serve?
 
-- Classificar dados novos com base em similaridade com dados de treinamento.
-- Resolver problemas onde a decisão depende de vizinhos próximos.
-- Analisar datasets pequenos onde algoritmos paramétricos podem falhar.
+- Classificar dados novos com base em probabilidades calculadas.
+- Resolver problemas onde a independência das features é uma boa aproximação.
+- Analisar datasets com features categóricas ou numéricas.
 
 ## O Que Faz Este Projeto?
 
-O projeto contém exemplos de código que demonstram o uso do KNN:
+O projeto contém exemplos de código que demonstram o uso do Naive Bayes:
 
-1. **index01.php**: Treina um modelo KNN com dados de exemplo e prevê a classe para um novo dado.
-2. **index02.php**: Similar ao primeiro, mas demonstra previsões para múltiplos dados ou ajustes no parâmetro k.
+1. **index01.php**: Treina um modelo Naive Bayes com dados de exemplo e prevê a classe para novos dados.
+2. **index02.php**: Similar ao primeiro, mas demonstra previsões para múltiplos dados ou ajustes.
 
 ### Dependências
 
