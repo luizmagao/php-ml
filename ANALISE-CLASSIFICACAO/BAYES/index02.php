@@ -11,9 +11,9 @@ function toDesc($p) {
 
 require_once __DIR__ . "/vendor/autoload.php";
 
-use Phpml\Classification\KNearestNeighbors;
+use Phpml\Classification\NaiveBayes;
 
-$classifier = new KNearestNeighbors();
+$classifier = new NaiveBayes();
 
 $samples = [[1], [8], [11], [12], [14], [17], [18], [40], [50], [65], [90], [85]];
 $labels = ['C','C','C','A','A','A','U','U','U','I','I','I'];

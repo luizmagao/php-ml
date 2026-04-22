@@ -2,9 +2,9 @@
 
 require_once __DIR__ . "/vendor/autoload.php";
 
-use Phpml\Classification\KNearestNeighbors;
+use Phpml\Classification\NaiveBayes;
 
-$classifier = new KNearestNeighbors();
+$classifier = new NaiveBayes();
 
 $samples = [[36],[38],[40],[42],[44],[46],[48],[50],[52],[54]];
 $labels = ['P', 'P', 'M', 'M', 'M', 'M', 'M', 'M', 'G', 'G'];
